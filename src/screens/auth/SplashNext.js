@@ -5,8 +5,9 @@ import {
   Image,
   View,
   StatusBar,
+  Text,
 } from 'react-native';
-import {IMAGES, COLORS, ICONS} from '../../themes/Themes';
+import {IMAGES, COLORS, ICONS, FONTS} from '../../themes/Themes';
 import normalize from '../../utils/helpers/normalize';
 
 export default function SplashNext(props) {
@@ -35,28 +36,27 @@ export default function SplashNext(props) {
           />
         </View>
 
-        <View style={{alignItems: 'center'}}>
-          <Image
-            // resizeMode="contain"s
-            source={ICONS.text_next}
+        <View style={{alignItems: 'center', marginTop: normalize(10)}}>
+          <Text
             style={{
-              height: normalize(15),
-              width: normalize(180),
-              marginVertical: normalize(20),
-            }}
-          />
+              fontFamily: FONTS.Mina_bold,
+              fontSize: 24,
+              color: COLORS.black,
+            }}>
+            A ride like no other
+          </Text>
         </View>
 
-        <Image
-          // resizeMode="contain"s
-          source={ICONS.power}
+        <Text
           style={{
-            height: normalize(11),
-            width: normalize(78),
+            fontFamily: FONTS.RobotoCondensed_bold,
+            fontSize: 16,
+            textAlign: 'center',
             marginTop: normalize(110),
-            alignSelf: 'center',
-          }}
-        />
+          }}>
+          POWERED BY
+        </Text>
+
         <View
           style={{
             flexDirection: 'row',
@@ -65,7 +65,7 @@ export default function SplashNext(props) {
             marginHorizontal: normalize(15),
           }}>
           <Image
-            // resizeMode="contain"s
+            resizeMode="contain"
             source={ICONS.next_lef}
             style={{
               height: normalize(50),
@@ -73,7 +73,7 @@ export default function SplashNext(props) {
             }}
           />
           <Image
-            // resizeMode="contain"s
+            resizeMode="cover"
             source={ICONS.next_rig}
             style={{
               height: normalize(50),

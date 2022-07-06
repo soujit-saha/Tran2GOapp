@@ -1,5 +1,11 @@
 export const IMAGES = {
-  // image1: require('../assets/images/image1.png'),
+  Topcar: require('../assets/images/Topcar.png'),
+  fb: require('../assets/images/fb.png'),
+  google: require('../assets/images/google.png'),
+  apple: require('../assets/images/apple.png'),
+  world: require('../assets/images/World.png'),
+  Cartop: require('../assets/images/Cartop.png'),
+  Grtop: require('../assets/images/Grtop.png'),
 };
 
 export const ICONS = {
@@ -18,22 +24,16 @@ export const ICONS = {
 };
 
 export const FONTS = {
-  Poppins_100I: 'Poppins-ThinItalic',
-  Poppins_100: 'Poppins-Thin',
-  Poppins_600I: 'Poppins-SemiBoldItalic',
   Poppins_600: 'Poppins-SemiBold',
-  Poppins_400: 'Poppins-Regular',
-  Poppins_500I: 'Poppins-MediumItalic',
-  Poppins_500: 'Poppins-Medium',
-  Poppins_300I: 'Poppins-LightItalic',
-  Poppins_300: 'Poppins-Light',
-  Poppins_400I: 'Poppins-Italic',
-  Poppins_200I: 'Poppins-ExtraLightItalic',
-  Poppins_200: 'Poppins-ExtraLight',
-  Poppins_800I: 'Poppins-ExtraBoldItalic',
-  Poppins_800: 'Poppins-ExtraBold',
-  Poppins_700I: 'Poppins-BoldItalic',
   Poppins_700: 'Poppins-Bold',
+  Mina_bold: 'Mina-Bold',
+  Mina_Reg: 'Mina-Regular',
+  RobotoCondensed_bold: 'RobotoCondensed-Bold',
+  RobotoCondensed_light: 'RobotoCondensed-Light',
+  RobotoCondensed_regular: 'RobotoCondensed-Regular',
+  Robot_700: 'Robot-Bold',
+  Robot_500: 'Robot-Medium',
+  Robot_400: 'Robot-Regular',
 };
 export const COLORS = {
   white: '#ffffff',
@@ -49,4 +49,5 @@ export const COLORS = {
   neutral_5: '#FAFAFA',
   accent: '#244495',
   accent: '#5270BD',
+  backgraound: '#B2B2B2',
 };

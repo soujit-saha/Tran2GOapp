@@ -16,7 +16,7 @@ const Home = () => {
         barStyle={'dark-content'}
       />
       <View>
-        <Text style={{fontSize: 40}}>Welcome to Login Screen</Text>
+        <Text style={{fontSize: 40}}>Thank You</Text>
       </View>
     </SafeAreaView>
   );

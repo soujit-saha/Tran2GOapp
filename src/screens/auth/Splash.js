@@ -36,6 +36,7 @@ export default function Splash(props) {
         </View>
         <View style={{marginTop: normalize(-20)}}>
           <Image
+            resizeMode="contain"
             source={ICONS.texts}
             style={{height: normalize(20), width: normalize(50)}}
           />
