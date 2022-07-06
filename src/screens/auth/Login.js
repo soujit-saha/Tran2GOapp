@@ -38,7 +38,7 @@ const Login = props => {
         translucent
         barStyle={'dark-content'}
       />
-      <Image
+      {/* <Image
         source={IMAGES.Topcar}
         style={{
           height: normalize(255),
@@ -48,6 +48,19 @@ const Login = props => {
           marginTop: normalize(-21),
           zIndex: 1,
           // bottom: Dimensions.get('screen').height / 1.645,
+          // elevation: 8,
+        }}
+      /> */}
+      <Image
+        source={IMAGES.Topcar}
+        style={{
+          height: normalize(185),
+          width: normalize(315),
+          resizeMode: 'contain',
+          position: 'absolute',
+          marginTop: normalize(11),
+          zIndex: 1,
+          // bottom: Dimensions.get('screen').height / 1.63,
           // elevation: 8,
         }}
       />
